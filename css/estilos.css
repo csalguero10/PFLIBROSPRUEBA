@@ -1,0 +1,135 @@
+/* reset selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: teal;
+    padding: 30px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+    li {
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        ul ul{
+            position: absolute;
+            display: none;
+        }
+            ul ul li {
+                display: block;
+            }
+            ul li:hover ul {
+                display: block;
+            }
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Página de contacto */
+fieldset {
+    display: flex;
+    justify-content: center;
+    border: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: cornsilk;
+}
+
+.section_form_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+div {
+    line-height: 3;
+}
+form {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title_form {
+    display: flex;
+    color: teal;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#formulario {
+    padding: 20px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.form_label {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: cornsilk;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    height: 20px;
+    width: 200px;
+    border-radius: 15px;
+    margin: 2px;
+}
+
+.option_menu {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: cornsilk;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    border: 2;
+    margin: 2px;
+}
+
+.asunto_box {
+    margin-top: 5px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: cornsilk;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    border-radius: 15px;
+    border: 2;
+    margin: 2px;
+}
+
+.btn {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: coral;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0;
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    color: aliceblue;
+}
+
+.checkbox1 {
+    background-color: cornsilk;
+}

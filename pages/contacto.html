@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/estilos.css">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./quienes_somos.html">QUIENES SOMOS</a></li>
+                <li><a href="./proyectos.html">PROYECTOS</a>
+                    <ul>
+                        <li><a href="./pages/feria_navidad.html">Feria Bogotá es Navidad</a></li>
+                        <li><a href="./pages/filbo.html">FILBo</a></li>
+                    </ul>
+                </li>
+                <li><a href="./editoriales.html">EDITORIALES</a></li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<h2 class="title_form">Contáctenos</h2>
+    <section class="section_form_container">
+        <fieldset>
+        <!-- Formularios -->
+        <form action="#" method="post" id="formulario">
+            <div>
+                <label class="name_container" for="nombre" class="nombreForm">Nombre:</label>
+                <input type="text" required placeholder="Nombre" name="nombre" id="nombre" class="form_label" autofocus>
+            </div>
+            <div>
+                <label for="Apellido">Apellido:</label>
+                <input type="apellido" name="apellido" id="Hernández" placeholder="Apellido" class="form_label" autofocus>
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="correo@gmail.com" class="form_label email" autofocus>
+            </div>
+        <!-- Menu desplegable -->
+            <div>
+                <label for="Opciones">Elija una opción:</label>
+                    <select name="opciones" class="option_menu">
+                        <option value="arte">Editorial</option>
+                        <option value="musica">Propuesta de proyecto</option>
+                        <option value="teatro">Consulta general</option>
+                    </select>
+            </div>
+            <div>
+                <label for="texto" class="asunto_title">Asunto:</label>
+            </div>
+            <textarea name="texto" id="texto" cols="50" rows="5" placeholder="Escriba aquí..." class="asunto_box"></textarea>
+            <!-- Checkbox -->
+            <div>
+                <label for="acepta">Terminos y condiciones</label>
+        <input type="checkbox" name="acepta" id="acepta" value="1" class="checkbox1">
+            </div>
+            <!-- Botones de enviar -->
+        <div>
+            <input type="submit" value=" Enviar" class="btn">
+            <input type="reset" value="Borrar" class="btn reset">
+        </div>
+    </fieldset>
+    </section>
+
+        </form>
+
+
+</body>
+</html>
